@@ -1,0 +1,53 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+.logo {
+    width: 6.25rem;
+}
+
+.pesquisa {
+    display: none;
+}
+
+#pesquisa {
+    background-color: #F5F5F5;
+    border: none;
+    padding: 10px;
+}
+
+#botao_pesquisa {
+    position: absolute;
+    right: 0px;
+    top: 4px;
+    background-color: #F5F5F5;
+    outline: none;
+}
+
+.banner {
+    height: 50vw;
+    max-height: 352px;
+    width: 100%;
+    background: url('../images/banner.jpg') center;
+    background-size: cover;
+}
+
+.banner_text {
+    font-weight: bold;
+    height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .logo {
+        width: 11rem;
+    }
+
+    .lupa {
+        display: none;
+    }
+
+    .pesquisa {
+        display: flex;
+    }
+}

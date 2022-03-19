@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Ecommerce for Alura Front End Challenge 3">
+        <meta name="author" content="Henrique Faria">
+        <title>Alura Geek • Home</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="./assets/css/bootstrap.min.css" rel="stylesheet"/>
+
+        <!-- Custom styles for this template -->
+        <link href="./assets/css/home.css" rel="stylesheet">
+
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+
+    <body>
+    <div class="container-fluid">
+        <header class="container mb-3">
+            <div class="row align-items-center justify-content-between mt-4">
+                <div class="col col-md-3">
+                    <img class="logo"src="./assets/images/logo.svg" alt="Alura Geek"/>
+                </div>
+                <div class="col col-md-6 pesquisa">
+                    <div class="input-group">
+                        <label for="pesquisa" class="form-label visually-hidden">Pesquisa na loja</label>
+                        <input type="search" class="form-control rounded-pill" id="pesquisa" placeholder="o que deseja encontrar?">
+                        <button class="btn btn-sm rounded-pill" type="button" id="botao_pesquisa"><img src="./assets/images/search.svg" alt="botão de pesquisa"/></button>
+                    </div>
+                </div>
+                <div class="col col-md-3">
+                    <button class="btn btn-outline-primary rounded-0 px-4 float-end" id="botao_login">Login</button>
+                </div>
+                <div class="col col-md-3 lupa">
+                    <button class="btn" id="botao_login"><img src="./assets/images/search.svg" alt="botão de pesquisa"/></button>
+                </div>
+            </div>
+        </header>
+        
+        <main>
+            <section>
+                <div class="banner">
+                    <div class="row align-items-end banner_text pb-3">
+                        <div class="col col-md-6 offset-2 text-white">
+                            <h1 class="display-3">Dezembro Promocional</h1>
+                            <h6 class="">Produtos selecionados com 33% de desconto</h6>
+                            <button class="btn btn-primary" type="button">Ver consoles</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer>
+
+        </footer>
+        
+        <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    </div>    
+    </body>
+</html>
